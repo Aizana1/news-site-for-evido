@@ -1,0 +1,47 @@
+body {
+  box-sizing: border-box;
+  font-size: 14px;
+  background-color: #e9e9e9;
+  font-family: "Lora", serif;
+}
+.comments {
+  width: 95%;
+  height: auto;
+  margin: 0 30px;
+}
+.comments h2 {
+  font-size: 16px;
+  color: #be9656;
+  font-family: "Varela Round", Arial, Helvetica, sans-serif;
+  padding-bottom: 5px
+}
+
+.comment-box .list {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 2px #0002;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.comment-box .list .user {
+  display: flex;
+  padding: 8px;
+  overflow: hidden;
+}
+.comment-box .list .user img {
+  height: 38px;
+  width: 38px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.comment-box .user-name {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.comment-box .list .user-timestamp {
+  font-size: 12px;
+}
+.comment-box .comment-text {
+  padding: 0 0 15px 58px;
+}
